@@ -5,7 +5,7 @@ include("header.php");
 if (isset($_POST['tambah'])) {
     $tanggal = $_POST['tanggal'];
     $nama = $_POST['nama'];
-    $nomeja = $_POST['nomeja'];
+    $nomeja = $_POST['NoMeja'];
     $menu_jumlah = $_POST['menu'];
     $jumlah_array = $_POST['jumlah'];
     $stok = true;
