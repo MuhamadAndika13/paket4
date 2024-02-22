@@ -1,6 +1,6 @@
 <?php 
-$id = $_GET['id'];
-$sql = "SELECT * FROM user WHERE UserID = $id";
+$userid = $_GET['UserID'];
+$sql = "SELECT * FROM user WHERE UserID = $userid";
 $result = $koneksi->query($sql);
 
 $data = $result->fetch_assoc();
